@@ -2,8 +2,8 @@ import os
 from tkinter import PROJECTING
 import ffmpeg
 
-filename = "test.txt"
-alphabet = "bảng kí tự.txt"
+filename = "cut segment time.txt"
+alphabet = "alphabet.txt"
 DDMMYY = ""             # day month year of measurement
 TT = ""                 # order of measurers
 N = ""                  #  camera order
