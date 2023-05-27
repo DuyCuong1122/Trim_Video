@@ -38,10 +38,10 @@ def trim(in_file, out_file, start, end):
     print(out_file_duration)
     
 
-with open(filename, "r") as file, open(alphabet, "r") as alphabet:
+with open(filename, "r") as file, open(alphabet, "r") as alphabets:
     lines = file.readlines()
     pairs = zip(lines[::2], lines[1::2])  # match pairs of values
-    alphas = alphabet.readlines()
+    alphas = alphabets.readlines()
     
     for pair, alpha in zip(pairs, alphas):
         start = pair[0].strip()
